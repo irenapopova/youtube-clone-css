@@ -1,0 +1,22 @@
+uploads ul li {
+    margin: 0.5em;
+    display: inline-flex;
+    color: white;
+    font-size: medium;
+}
+
+.uploads ul li i {
+    padding-right: 0.5em;
+}
+
+.uploads ul li:nth-child(2) {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.video-images {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
