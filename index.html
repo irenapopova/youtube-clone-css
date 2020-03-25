@@ -40,6 +40,11 @@
             </button>
         </div>
 
+        <!--CHANGING LIGHT TO DARK MODE-->
+        <div class="dark-mode">
+            <input type="checkbox" name="dark_light" id="switch" onclick="nightMode()">
+        </div>
+
         <!-- USER_INFO SECTION-->
         <div class="user-info_video">
             <i class="fas fa-video video_icon"></i>
@@ -376,7 +381,18 @@
     </aside>
 -->
 
+    <!-- JS to change from light to dark mode-->
+    <script>
+        const nightMode = () => {
+            const body = document.getElementById("body");
+            const currentClass = body.className;
+            body.className =
+                currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+        }
+    </script>
+
 </body>
+
 
 <!-- FOOTER -->
 
