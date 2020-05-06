@@ -1,0 +1,11 @@
+.logo {
+  width: 86px;
+  margin-right: 34px;
+}
+
+@media (min-width: 660px) {
+  .logo {
+    margin-right: 73px;
+  }
+}
+/*# sourceMappingURL=logo.css.map */
