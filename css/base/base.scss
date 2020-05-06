@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+    flex-direction: column;
+
+    --bgColor: grey;
+    --fontColor: black;
+
+    * {
+        background-color: var(--bgColor);
+        color: var(--fontColor);
+    }
+}
+
+body {
+    &.dark_mode {
+        --bgColor: rgb(71, 67, 67);
+        --fontColor: white;
+    }
+}
+

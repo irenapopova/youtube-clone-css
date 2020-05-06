@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: gray;
+  background-color: var(--bgColor);
   height: 56px;
   position: fixed;
   grid-area: header;
@@ -13,6 +13,15 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 2;
   /*justify-content: space-evenly; */
+
+  /* Night Mode button */
+  .dark-mode {
+    background-color: var(--bgColor);
+    border: 1px solid var(--fontColor);
+    border-radius: 50%;
+    margin: auto;
+    padding: 1rem;
+  }
 }
 
 .avatar_icon {
@@ -33,10 +42,5 @@
     font-size: 19px;
   }
 
-  /* Night Mode button */
-  .dark-mode {
-    position: absolute;
-    top: 2.6vh;
-    right: 21vw;
-    transform: translate(-50%, -50%);
-  }
+
+}

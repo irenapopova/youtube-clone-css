@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background-color: var(--bgColor);
+  height: 56px;
+  position: fixed;
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 16px;
+  /*padding-top: 2rem;
+  padding-bottom: 2rem; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  /*justify-content: space-evenly; */
+  /* Night Mode button */
+}
+
+.header .dark-mode {
+  background-color: var(--bgColor);
+  border: 1px solid var(--fontColor);
+  border-radius: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.avatar_icon {
+  width: 35px;
+  height: 35px;
+}
+
+.video_icon {
+  font-size: 19px;
+}
+
+.video_icon .user-info_upload {
+  font-size: 19px;
+}
+
+.video_icon .user-info__icon-notification {
+  font-size: 19px;
+}
+/*# sourceMappingURL=header.css.map */

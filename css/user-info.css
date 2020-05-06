@@ -1,0 +1,32 @@
+.user-info {
+  width: 156px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 470px) {
+  .user-info {
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.user-info__icon-profile {
+  border-radius: 50%;
+  -ms-flex-negative: 2;
+      flex-shrink: 2;
+  /**/
+  height: 3vh;
+  width: 3vw;
+}
+/*# sourceMappingURL=user-info.css.map */

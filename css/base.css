@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  --bgColor: grey;
+  --fontColor: black;
+}
+
+html *,
+body * {
+  background-color: var(--bgColor);
+  color: var(--fontColor);
+}
+
+body.dark_mode {
+  --bgColor: rgb(71, 67, 67);
+  --fontColor: white;
+}
+/*# sourceMappingURL=base.css.map */

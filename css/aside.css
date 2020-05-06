@@ -1,7 +1,7 @@
 .aside {
   grid-area: aside;
   border-bottom: 1px solid #eeeeee;
-  background-color: grey;
+  background-color: var(--bgColor);
 }
 
 @media (max-width: 1108px) {
@@ -10,6 +10,7 @@
   }
 }
 
-.aside:hover {
+/* .aside:hover {
   overflow-y: auto;
-}
+} */
+/*# sourceMappingURL=aside.css.map */

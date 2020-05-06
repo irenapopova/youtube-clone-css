@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "objects/advertising.scss"
+    ],
+    "names": [],
+    "file": "advertising.css"
+}

@@ -1,0 +1,21 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -ms-grid-columns: 240px 1fr;
+      grid-template-columns: 240px 1fr;
+  -ms-grid-rows: 50px 56px 1fr;
+      grid-template-rows: 50px 56px 1fr;
+      grid-template-areas: "header header" "aside main";
+  background-color: #6b6a6a;
+  /* width: 15vw; */
+}
+
+@media (max-width: 1108px) {
+  .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "main";
+  }
+}
+/*# sourceMappingURL=container.css.map */
