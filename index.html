@@ -8,7 +8,8 @@
     <script src="https://kit.fontawesome.com/75f6c89321.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
@@ -21,7 +22,7 @@
     <title>YouTube - Layout-CSS </title>
 </head>
 
-<body>
+<body id="ytApp">
 
     <!-- HEADER -->
     <header class="header">
@@ -40,10 +41,12 @@
             </button>
         </div>
 
-        <!--CHANGING LIGHT TO DARK MODE-->
         <div class="dark-mode">
             <input type="checkbox" name="dark_light" id="switch" onclick="nightMode()">
         </div>
+
+        <!--CHANGING LIGHT TO DARK MODE-->
+        
 
         <!-- USER_INFO SECTION-->
         <div class="user-info_video">
@@ -384,11 +387,13 @@
     <!-- JS to change from light to dark mode-->
     <script>
         const nightMode = () => {
-            const body = document.getElementById("body");
-            const currentClass = body.className;
-            body.className =
-                currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+            const body=document.getElementsByTagName('body')[0];
+            /* const currentClass = body.className; */
+            /* console.log(body.classList) */
+            body.classList.toggle('dark_mode');
+            
         }
+        nightMode()
     </script>
 
 </body>
