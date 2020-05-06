@@ -1,6 +1,8 @@
 .search {
-  flex: 2;
+  width: 40rem;
+  max-width: 100%;
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
   /*border-color: firebrick; */
@@ -8,7 +10,7 @@
 
 @media (min-width: 660px) {
   .search {
-    margin: 0 50px;
+    margin: 0 20px;
   }
 }
 
