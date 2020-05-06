@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/75f6c89321.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -41,12 +41,12 @@
             </button>
         </div>
 
-        <div class="dark-mode">
-            <input type="checkbox" name="dark_light" id="switch" onclick="nightMode()">
-        </div>
-
         <!--CHANGING LIGHT TO DARK MODE-->
-        
+        <!-- Rounded switch -->
+        <label class="switch dark-mode-toggle">
+            <input onclick="nightMode()" type="checkbox">
+            <span class="slider round"></span>
+        </label>
 
         <!-- USER_INFO SECTION-->
         <div class="user-info_video">
@@ -368,32 +368,17 @@
     </div>
 
 
-    <!-- SECOND ASIDE -  SIDEBAR-->
 
-    <!--
-    <aside class="aside_sidebar">
-        <div class="subscribe"><img src="./img/modern-builds.png" alt="Modern Builds logo">
-            <h5>Mike fom Modern Builds</h5>
-
-        </div>
-        <div class="button">
-            <form action="subscribe">
-                <input type="button" class="button" value="SUBSCRIBE">
-            </form>
-        </div>
-    </aside>
--->
 
     <!-- JS to change from light to dark mode-->
     <script>
         const nightMode = () => {
-            const body=document.getElementsByTagName('body')[0];
+            const body = document.getElementsByTagName('body')[0];
             /* const currentClass = body.className; */
             /* console.log(body.classList) */
             body.classList.toggle('dark_mode');
-            
+
         }
-        nightMode()
     </script>
 
 </body>

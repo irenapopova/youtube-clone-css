@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,qBAAqB,EAAE,SAAS;EAChC,kBAAkB,EAAE,aAAa;EAEjC,mBAAmB,EACjB,4BACY;EACd,gBAAgB,EAAE,OAAkB;EACpC,kBAAkB;CACnB;;AAED,MAAM,EAAE,SAAS,EAAE,MAAM;EACvB,AAAA,UAAU,CAAC;IACT,qBAAqB,EAAE,GAAG;IAC1B,mBAAmB,EACjB,eACM;GACT",
     "sources": [
-        "components/container.scss"
+        "../scss/components/container.scss"
     ],
     "names": [],
     "file": "container.css"

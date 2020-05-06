@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,aAAa,EAAE,iBAAiB;CACnC;;AAED,AAAA,oBAAoB,CAAC;EACjB,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,CAAC;CACZ",
     "sources": [
-        "objects/section-list.scss"
+        "../scss/objects/section-list.scss"
     ],
     "names": [],
     "file": "section-list.css"
