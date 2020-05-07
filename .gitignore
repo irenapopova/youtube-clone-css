@@ -1,0 +1,7 @@
+# Generate styles
+src/styles/
+
+# VS code config
+vscode/
+# .DS_Store
+.DS_Store
