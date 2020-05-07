@@ -1,4 +1,11 @@
 ### YouTube Clone project 
 ### DCI 
+#### For educational purposes only 
 
-CSS - SCSS
+#### Tech used
+- CSS 
+- FlexBox
+- SCSS
+
+#### Layout
+resembles the Holy Grahal 

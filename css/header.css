@@ -97,13 +97,16 @@
 
 .header .video_icon {
   font-size: 19px;
+  margin: 0 0.9rem;
 }
 
 .header .video_icon .user-info_upload {
   font-size: 19px;
+  margin: 0 0.5rem;
 }
 
 .header .video_icon .user-info__icon-notification {
   font-size: 19px;
+  margin: 0 0.9rem;
 }
 /*# sourceMappingURL=header.css.map */

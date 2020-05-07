@@ -13,6 +13,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   --bgColor: grey;
   --fontColor: black;
 }
@@ -140,8 +144,9 @@ body.dark_mode {
 }
 
 .logo {
-  width: 86px;
-  margin-right: 34px;
+  width: 105px;
+  margin-right: 35px;
+  padding: 19px;
 }
 
 @media (min-width: 660px) {
@@ -153,6 +158,7 @@ body.dark_mode {
 .menu-icon {
   padding: 8px;
   margin-right: 16px;
+  margin: 0 0.5rem;
 }
 
 .search {
@@ -304,15 +310,19 @@ div img:hover ~ .play-all-on-hover {
 }
 
 .time {
+  /* display: flex; */
   position: relative;
   bottom: 3em;
-  left: 17em;
+  /* moving the time to the left */
+  left: 9em;
   /* positioning the time to the left */
   padding: 0.2em 0.5em;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10%;
   font-size: medium;
   color: white;
+  margin-right: 0 0.5rem;
+  z-index: 50;
 }
 
 uploads ul li {
@@ -324,8 +334,10 @@ uploads ul li {
   font-size: medium;
 }
 
+/*user button - as an upload icon in header */
 .uploads ul li i {
   padding-right: 0.5em;
+  margin: 0 0.5rem;
 }
 
 .uploads ul li:nth-child(2) {
@@ -469,14 +481,17 @@ uploads ul li {
 
 .header .video_icon {
   font-size: 19px;
+  margin: 0 0.9rem;
 }
 
 .header .video_icon .user-info_upload {
   font-size: 19px;
+  margin: 0 0.5rem;
 }
 
 .header .video_icon .user-info__icon-notification {
   font-size: 19px;
+  margin: 0 0.9rem;
 }
 
 .aside {
@@ -533,6 +548,18 @@ uploads ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 4rem;
+}
+
+/* menu_central_nav bar in the middle part */
+.menu_central_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body {

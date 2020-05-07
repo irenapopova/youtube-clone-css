@@ -4,4 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 4rem;
+}
+
+/* menu_central_nav bar in the middle part */
+.menu_central_nav {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-around;
 }
