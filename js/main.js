@@ -19,21 +19,21 @@ inner_nav.innerHTML = `<ul id="menu" class="menu active">
 
 //pop-menu - when click on avatar icon//
 
-const pop_menu = document.getElementById("pop_menu");
+const popup_menu = document.getElementById("popup_menu");
 
 document.getElementById("user").addEventListener("click", () => {
-  pop_menu.classList.toggle("able");
+  popup_menu.classList.toggle("able");
 });
 
 document.getElementById("right").addEventListener("click", () => {
-  pop_menu.classList.add("able");
+  popup_menu.classList.add("able");
 });
 
 document.getElementById("left").addEventListener("click", () => {
-  pop_menu.classList.add("able");
+  popup_menu.classList.add("able");
 });
 document.getElementById("menu").addEventListener("click", () => {
-  pop_menu.classList.add("able");
+  popup_menu.classList.add("able");
 });
 
 //functions to change the background----- dark mode simulation/////////
