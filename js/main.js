@@ -1,5 +1,5 @@
-//inner top menu 
-inner_nav.innerHTML = `<ul id="menu" class="menu active">
+//inner top nav menu 
+inner_nav.innerHTML = `<ul id="menu_inner_nav" class="menu active">
 <li>HOME</li>
 <li>VIDEOS</li>
 <li>PLAYLIST</li>

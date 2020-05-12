@@ -1,14 +1,14 @@
-.menu {
+/* .menu {
   width: 100%;
   height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 4rem;
-}
+} */
 
-/* menu_central_nav bar in the middle part - Inner menu*/
-.menu_central_nav {
+/* menu_central_INNER_nav bar in the middle part - Inner menu*/
+.menu_inner_nav {
   display: flex;
   overflow: hidden;
   list-style: none;
@@ -24,7 +24,22 @@
   z-index: 100;
 }
 
-/*----------pop_menu---------*/
+.menu.active {
+  width: calc(100vw - 44px);
+}
+
+.menu > li {
+  margin-right: 6vw;
+}
+
+.inner-nav > ul > li:hover {
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
+
+/*END OF MENU CENTRAL_INNER_NAV*/
+
+/*----------POP_UP_menu when on_click AVATAR ---------*/
 .popup_menu {
   position: absolute;
   right: 50px;
@@ -55,20 +70,19 @@
 .user img {
   width: 45px;
   border-radius: 50%;
-  margin: 0 0.9rem;
 }
 
-.user>.img2 {
+.user > .img2 {
   text-align: center;
   width: 30%;
   justify-content: center;
 }
 
-.img2>img {
+.img2 > img {
   margin-top: 20px;
 }
 
-.user>.info {
+.user > .info {
   width: 80%;
 }
 

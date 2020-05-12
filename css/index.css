@@ -488,7 +488,7 @@ uploads ul li {
 
 .header .video_icon {
   font-size: 24px;
-  margin: 0 0.9rem;
+  margin: 0 0.5rem;
 }
 
 .header .user-info_fas {
@@ -573,23 +573,16 @@ uploads ul li {
   }
 }
 
-.menu {
+/* .menu {
   width: 100%;
   height: 75px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 4rem;
-}
-
-/* menu_central_nav bar in the middle part - Inner menu*/
-.menu_central_nav {
+} */
+/* menu_central_INNER_nav bar in the middle part - Inner menu*/
+.menu_inner_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,7 +603,21 @@ uploads ul li {
   z-index: 100;
 }
 
-/*----------pop_menu---------*/
+.menu.active {
+  width: calc(100vw - 44px);
+}
+
+.menu > li {
+  margin-right: 6vw;
+}
+
+.inner-nav > ul > li:hover {
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
+
+/*END OF MENU CENTRAL_INNER_NAV*/
+/*----------POP_UP_menu when on_click AVATAR ---------*/
 .popup_menu {
   position: absolute;
   right: 50px;
@@ -650,7 +657,6 @@ uploads ul li {
 .user img {
   width: 45px;
   border-radius: 50%;
-  margin: 0 0.9rem;
 }
 
 .user > .img2 {
