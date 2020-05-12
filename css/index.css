@@ -138,7 +138,7 @@ body.dark_mode {
   margin-right: 24px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  color: white;
+  color: black;
   /*changing the color of the list items in the sidebar*/
   font-weight: 400;
 }
