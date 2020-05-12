@@ -21,7 +21,7 @@
   }
 }
 
-.user-info__icon-profile {
+.user-info__icon-profile.avatar_icon {
   border-radius: 50%;
   -ms-flex-negative: 2;
       flex-shrink: 2;

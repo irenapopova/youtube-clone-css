@@ -33,7 +33,6 @@
   z-index: 1000;
   background-color: rgba(41, 41, 41, 0.98);
   width: 300px;
-  display: none;
 }
 
 .option {
@@ -56,19 +55,20 @@
 .user img {
   width: 45px;
   border-radius: 50%;
+  margin: 0 0.9rem;
 }
 
-.user>.img2 {
+.user > .img2 {
   text-align: center;
   width: 30%;
   justify-content: center;
 }
 
-.img2>img {
+.img2 > img {
   margin-top: 20px;
 }
 
-.user>.info {
+.user > .info {
   width: 80%;
 }
 

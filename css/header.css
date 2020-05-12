@@ -22,7 +22,8 @@
   /* Hide default HTML checkbox */
   /* The slider */
   /* Rounded sliders */
-  /* avatar icon*/
+  /* AVATAR icon*/
+  /* nav user icons*/
 }
 
 .header .dark-mode-toggle {
@@ -52,8 +53,8 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .header .slider:before {
@@ -64,17 +65,17 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .header input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .header input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #2196F3;
-          box-shadow: 0 0 1px #2196F3;
+  -webkit-box-shadow: 0 0 1px #2196f3;
+          box-shadow: 0 0 1px #2196f3;
 }
 
 .header input:checked + .slider:before {
@@ -93,20 +94,24 @@
 .header .avatar_icon {
   width: 35px;
   height: 35px;
+  margin: 0 0.9rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .header .video_icon {
-  font-size: 19px;
+  font-size: 21px;
   margin: 0 0.9rem;
 }
 
-.header .video_icon .user-info_upload {
-  font-size: 19px;
-  margin: 0 0.5rem;
+.header .user-info_upload {
+  font-size: 21px;
+  margin: 0 0.9rem;
 }
 
-.header .video_icon .user-info__icon-notification {
-  font-size: 19px;
+.header .user-info__icon-notification {
+  font-size: 21px;
   margin: 0 0.9rem;
 }
 /*# sourceMappingURL=header.css.map */
