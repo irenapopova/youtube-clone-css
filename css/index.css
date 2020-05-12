@@ -604,7 +604,7 @@ uploads ul li {
 }
 
 /*----------pop_menu---------*/
-.pop_menu {
+.popup_menu {
   position: absolute;
   right: 50px;
   top: 70px;
@@ -612,6 +612,7 @@ uploads ul li {
   z-index: 1000;
   background-color: rgba(41, 41, 41, 0.98);
   width: 300px;
+  display: none;
 }
 
 .option {
@@ -626,11 +627,11 @@ uploads ul li {
   overflow: scroll;
 }
 
-.pop_menu {
+.popup_menu {
   display: none;
 }
 
-.pop_menu .user {
+.popup_menu .user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
