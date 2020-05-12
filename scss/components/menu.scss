@@ -28,11 +28,11 @@
   width: calc(100vw - 44px);
 }
 
-.menu > li {
+.menu>li {
   margin-right: 6vw;
 }
 
-.inner-nav > ul > li:hover {
+.inner-nav>ul>li:hover {
   border-bottom: 2px solid;
   cursor: pointer;
 }
@@ -58,7 +58,7 @@
   overflow: scroll;
 }
 
-.popup_menu able {
+.able {
   display: none;
 }
 
@@ -68,21 +68,21 @@
 }
 
 .user img {
-  width: 45px;
+  width: 65px;
   border-radius: 50%;
 }
 
-.user > .img2 {
+.user>.img2 {
   text-align: center;
   width: 30%;
   justify-content: center;
 }
 
-.img2 > img {
+.img2>img {
   margin-top: 20px;
 }
 
-.user > .info {
+.user>.info {
   width: 80%;
 }
 

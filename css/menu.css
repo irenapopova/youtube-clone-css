@@ -65,7 +65,7 @@
   overflow: scroll;
 }
 
-.popup_menu able {
+.able {
   display: none;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .user img {
-  width: 45px;
+  width: 65px;
   border-radius: 50%;
 }
 

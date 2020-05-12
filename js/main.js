@@ -1,5 +1,5 @@
 //inner top nav menu 
-inner_nav.innerHTML = `<ul id="menu_inner_nav" class="menu active">
+/*inner_nav.innerHTML = `<ul id="menu_inner_nav" class="menu active">
 <li>HOME</li>
 <li>VIDEOS</li>
 <li>PLAYLIST</li>
@@ -8,7 +8,7 @@ inner_nav.innerHTML = `<ul id="menu_inner_nav" class="menu active">
 <li>CHANNELS</li>
 <li>ABOUT</li>
 
-</ul>`;
+</ul>`; */
 
 
 // Hamburger menu toggle //
@@ -16,7 +16,7 @@ inner_nav.innerHTML = `<ul id="menu_inner_nav" class="menu active">
 
 
 
-
+//alert("i am working")
 //pop-menu - when click on avatar icon//
 
 const popup_menu = document.getElementById("popup_menu");
@@ -25,6 +25,10 @@ document.getElementById("user").addEventListener("click", () => {
   popup_menu.classList.toggle("able");
 });
 
+document.getElementById("profile").addEventListener("click", () => {
+  popup_menu.classList.toggle("able");
+});
+/*
 document.getElementById("right").addEventListener("click", () => {
   popup_menu.classList.add("able");
 });
@@ -34,7 +38,8 @@ document.getElementById("left").addEventListener("click", () => {
 });
 document.getElementById("menu").addEventListener("click", () => {
   popup_menu.classList.add("able");
-});
+});*/
+
 
 //functions to change the background----- dark mode simulation/////////
 

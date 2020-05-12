@@ -224,6 +224,7 @@ body.dark_mode {
   color: #a0a0a0;
   padding: 8px 24px;
   margin: 0;
+  overflow-x: scroll;
 }
 
 .user-info {
@@ -640,7 +641,7 @@ uploads ul li {
   overflow: scroll;
 }
 
-.popup_menu able {
+.able {
   display: none;
 }
 
@@ -655,7 +656,7 @@ uploads ul li {
 }
 
 .user img {
-  width: 45px;
+  width: 65px;
   border-radius: 50%;
 }
 
