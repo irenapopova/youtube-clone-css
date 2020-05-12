@@ -391,7 +391,7 @@ uploads ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 16px;
+  padding: 0 18px;
   /*padding-top: 2rem;
   padding-bottom: 2rem; */
   -webkit-box-align: center;
@@ -400,7 +400,9 @@ uploads ul li {
   -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 2;
-  /*justify-content: space-evenly; */
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   /* Night Mode button */
   /* The switch - the box around the slider */
   /* Hide default HTML checkbox */
@@ -485,17 +487,17 @@ uploads ul li {
 }
 
 .header .video_icon {
-  font-size: 21px;
+  font-size: 24px;
   margin: 0 0.9rem;
 }
 
 .header .user-info_upload {
-  font-size: 21px;
+  font-size: 24px;
   margin: 0 0.9rem;
 }
 
 .header .user-info__icon-notification {
-  font-size: 21px;
+  font-size: 24px;
   margin: 0 0.9rem;
 }
 
