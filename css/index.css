@@ -157,7 +157,7 @@ body.dark_mode {
 
 .menu-icon {
   padding: 8px;
-  margin-right: 16px;
+  margin-right: 20px;
   margin: 0 0.5rem;
 }
 
@@ -491,7 +491,7 @@ uploads ul li {
   margin: 0 0.9rem;
 }
 
-.header .user-info_upload {
+.header .user-info_fas {
   font-size: 24px;
   margin: 0 0.9rem;
 }
@@ -633,7 +633,7 @@ uploads ul li {
   overflow: scroll;
 }
 
-.popup_menu {
+.popup_menu able {
   display: none;
 }
 
