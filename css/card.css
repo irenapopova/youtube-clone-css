@@ -46,7 +46,7 @@
   width: 100%;
   font-size: 13px;
   font-weight: 500;
-  color: #8f8f8f;
+  color: #eee;
 }
 
 .card__published-date {
@@ -54,6 +54,6 @@
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
-  color: #8f8f8f;
+  color: #eee;
 }
 /*# sourceMappingURL=card.css.map */
