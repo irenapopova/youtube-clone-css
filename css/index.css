@@ -523,7 +523,7 @@ uploads ul li {
   border-bottom: 1px solid #eeeeee;
   background-color: var(--bgColor);
   position: fixed;
-  height: calc(100vh -56px);
+  height: calc(100vh - 56px);
   overflow: auto;
   top: 56px;
   z-index: 190090090;
