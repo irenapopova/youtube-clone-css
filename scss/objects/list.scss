@@ -10,13 +10,16 @@
   height: 40px;
   display: flex;
   align-items: center;
+
 }
 
 .list__item__icon {
   width: 35px;
-  height: 35px;
+  // height: 35px;
   margin-right: 27px;
   color: gray;
+  display: flex;
+  align-items: center;
 }
 
 .list__item__img {

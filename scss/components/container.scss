@@ -10,6 +10,8 @@
     "aside main";
   background-color: rgb(107, 106, 106);
   /* width: 15vw; */
+  z-index: 0;
+  position: relative;
 }
 
 @media (max-width: 1108px) {

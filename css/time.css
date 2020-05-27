@@ -1,7 +1,9 @@
 .time {
   /* display: flex; */
-  position: relative;
-  bottom: 3em;
+  position: absolute;
+  top: 11em;
+  right: 1em;
+  /* bottom: 3em;*/
   /* moving the time to the left */
   left: 9em;
   /* positioning the time to the left */

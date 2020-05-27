@@ -7,6 +7,8 @@
       grid-template-areas: "header header" "aside main";
   background-color: #6b6a6a;
   /* width: 15vw; */
+  z-index: 0;
+  position: relative;
 }
 
 @media (max-width: 1108px) {
