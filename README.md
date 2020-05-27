@@ -1,7 +1,7 @@
 ### YouTube Clone DEMO project 
 ### DCI 
 
-#### For educational purposes only 
+#### For Educational purposes only !!!!
 
 #### Tech used
 - CSS 
