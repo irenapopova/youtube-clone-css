@@ -56,3 +56,7 @@ btnSwitch.addEventListener('click', () => {
   nav.classList.toggle('d_mode')
   menu.classList.toggle('d_mode')
 });
+//  toggle button to change from light to dark mode
+btnSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('d_mode')
+});
