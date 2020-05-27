@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -9,8 +8,9 @@ body {
           box-sizing: border-box;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  --bgColor: gray;
+  --bgColor: grey;
   --fontColor: black;
+  --secColor: orange;
 }
 
 html *,
@@ -19,8 +19,13 @@ body * {
   color: var(--fontColor);
 }
 
+html {
+  background-color: var(--bgColor);
+}
+
 body.dark_mode {
   --bgColor: rgb(71, 67, 67);
   --fontColor: white;
+  --secColor: blue;
 }
 /*# sourceMappingURL=base.css.map */

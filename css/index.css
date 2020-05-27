@@ -8,7 +8,6 @@
 /* Base */
 html,
 body {
-  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -17,8 +16,9 @@ body {
           box-sizing: border-box;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  --bgColor: gray;
+  --bgColor: grey;
   --fontColor: black;
+  --secColor: orange;
 }
 
 html *,
@@ -27,9 +27,14 @@ body * {
   color: var(--fontColor);
 }
 
+html {
+  background-color: var(--bgColor);
+}
+
 body.dark_mode {
   --bgColor: rgb(71, 67, 67);
   --fontColor: white;
+  --secColor: blue;
 }
 
 /* Objects */
@@ -365,8 +370,6 @@ uploads ul li {
   height: 100%;
   -ms-grid-columns: 240px 1fr;
       grid-template-columns: 240px 1fr;
-  -ms-grid-rows: 50px 56px 1fr;
-      grid-template-rows: 50px 56px 1fr;
       grid-template-areas: "header header" "aside main";
   background-color: #6b6a6a;
   /* width: 15vw; */
@@ -495,6 +498,7 @@ uploads ul li {
 .header .user-info_fas {
   font-size: 24px;
   margin: 0 0.9rem;
+  background-color: var(--secColor);
 }
 
 .header .user-info__icon-notification {
@@ -508,6 +512,7 @@ uploads ul li {
   grid-area: aside;
   border-bottom: 1px solid #eeeeee;
   background-color: var(--bgColor);
+  position: fixed;
 }
 
 @media (max-width: 1108px) {
@@ -520,7 +525,6 @@ uploads ul li {
   overflow-y: auto;
 } */
 .main {
-  background-color: #fafafa;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: main;
@@ -583,7 +587,7 @@ uploads ul li {
   margin: 0 4rem;
 } */
 /* menu_central_INNER_nav bar in the middle part - Inner menu*/
-.menu_inner_nav {
+#menu_inner_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

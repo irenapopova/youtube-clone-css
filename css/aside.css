@@ -2,6 +2,7 @@
   grid-area: aside;
   border-bottom: 1px solid #eeeeee;
   background-color: var(--bgColor);
+  position: fixed;
 }
 
 @media (max-width: 1108px) {

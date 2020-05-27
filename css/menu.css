@@ -7,7 +7,7 @@
   margin: 0 4rem;
 } */
 /* menu_central_INNER_nav bar in the middle part - Inner menu*/
-.menu_inner_nav {
+#menu_inner_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

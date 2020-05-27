@@ -1,13 +1,14 @@
 html,
 body {
-    height: 100%;
+    //height: 100%;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 
-    --bgColor: gray;
+    --bgColor: grey;
     --fontColor: black;
+    --secColor: orange;
 
     * {
         background-color: var(--bgColor);
@@ -15,9 +16,14 @@ body {
     }
 }
 
+html {
+    background-color: var(--bgColor);
+}
+
 body {
     &.dark_mode {
         --bgColor: rgb(71, 67, 67);
         --fontColor: white;
+        --secColor: blue;
     }
 }
