@@ -189,4 +189,10 @@
 .switch span:nth-child(2) {
   padding-left: 10px;
 }
+
+body#ytApp.d_mode {
+  --bgColor: black;
+  --fontColor: white;
+  --secColor: lightgreen;
+}
 /*# sourceMappingURL=menu.css.map */
