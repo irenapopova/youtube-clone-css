@@ -51,6 +51,7 @@ body.dark_mode {
   width: 25%;
   padding: 5px 2px;
   margin-bottom: 24px;
+  position: relative;
 }
 
 @media (max-width: 780px) {
@@ -322,17 +323,19 @@ div img:hover ~ .play-all-on-hover {
 
 .time {
   /* display: flex; */
-  position: relative;
-  bottom: 3em;
+  position: absolute;
+  top: 11em;
+  right: 1em;
+  /* bottom: 3em;*/
   /* moving the time to the left */
-  left: 9em;
+  /*left: 9em;*/
   /* positioning the time to the left */
   padding: 0.2em 0.5em;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10%;
   font-size: medium;
   color: white;
-  margin-right: 0 0.5rem;
+  /*margin-right: 0 0.5rem; */
   z-index: 50;
 }
 
@@ -520,6 +523,10 @@ uploads ul li {
   border-bottom: 1px solid #eeeeee;
   background-color: var(--bgColor);
   position: fixed;
+  height: calc(100vh -56px);
+  overflow: auto;
+  top: 56px;
+  z-index: 190090090;
 }
 
 @media (max-width: 1108px) {
